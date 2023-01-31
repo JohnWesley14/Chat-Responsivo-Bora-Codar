@@ -33,7 +33,10 @@ header{
 }
 main{
     max-height: 90vh;
-    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
 }
 p{
     color: #E1E1E6;
@@ -139,4 +142,10 @@ footer img{
     width: 22.5px;
     height: 19.5px;
     cursor: pointer;
+}
+@media (max-height: 570px){
+    main{
+        min-height: 90vh;
+    }
+    
 }
