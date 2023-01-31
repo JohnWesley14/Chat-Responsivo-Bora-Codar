@@ -149,3 +149,11 @@ footer img{
     }
     
 }
+@media(max-width: 500px){
+    .rightMessage{
+        max-width: 40vw;
+    }
+    .leftMessage{
+        max-width: 40vw;
+    }
+}
